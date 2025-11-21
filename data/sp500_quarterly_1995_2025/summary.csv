@@ -1,0 +1,156 @@
+Ticker,Records,Sector,Industry
+AAPL,120,Technology,Consumer Electronics
+ABT,123,Healthcare,Medical - Devices
+ADM,121,Consumer Defensive,Agricultural Farm Products
+ADP,122,Industrials,Staffing & Employment Services
+ADSK,123,Technology,Software - Application
+AEE,114,Utilities,Regulated Electric
+AEP,122,Utilities,Regulated Electric
+AIG,122,Financial Services,Insurance - Diversified
+ALL,122,Financial Services,Insurance - Property & Casualty
+AMAT,123,Technology,Semiconductors
+AMD,122,Technology,Semiconductors
+AMGN,122,Healthcare,Drug Manufacturers - General
+APD,122,Basic Materials,Chemicals - Specialty
+AVY,123,Industrials,Business Equipment & Supplies
+AXP,123,Financial Services,Financial - Credit Services
+BA,122,Industrials,Aerospace & Defense
+BAC,123,Financial Services,Banks - Diversified
+BAX,122,Healthcare,Medical - Instruments & Supplies
+BBWI,123,Consumer Cyclical,Specialty Retail
+BDX,122,Healthcare,Medical - Instruments & Supplies
+BEN,122,Financial Services,Asset Management
+BK,123,Financial Services,Asset Management
+BLL,112,Consumer Cyclical,Packaging & Containers
+BMY,122,Healthcare,Drug Manufacturers - General
+BSX,123,Healthcare,Medical - Devices
+C,123,Financial Services,Banks - Diversified
+CAG,123,Consumer Defensive,Packaged Foods
+CAT,122,Industrials,Agricultural - Machinery
+CI,122,Healthcare,Medical - Healthcare Plans
+CL,122,Consumer Defensive,Household & Personal Products
+CLX,122,Consumer Defensive,Household & Personal Products
+CMA,123,Financial Services,Banks - Regional
+CMI,122,Industrials,Industrial - Machinery
+CNP,123,Utilities,General Utilities
+COP,122,Energy,Oil & Gas Exploration & Production
+COST,123,Consumer Defensive,Discount Stores
+CPB,123,Consumer Defensive,Packaged Foods
+CSCO,123,Technology,Communication Equipment
+CSX,123,Industrials,Railroads
+CVS,122,Healthcare,Medical - Healthcare Plans
+CVX,122,Energy,Oil & Gas Integrated
+D,122,Utilities,Regulated Electric
+DE,123,Industrials,Agricultural - Machinery
+DHR,123,Healthcare,Medical - Diagnostics & Research
+DIS,122,Communication Services,Entertainment
+DOV,123,Industrials,Industrial - Machinery
+DTE,122,Utilities,Regulated Electric
+DUK,122,Utilities,Regulated Electric
+ECL,123,Basic Materials,Chemicals - Specialty
+EIX,122,Utilities,Regulated Electric
+EMN,122,Basic Materials,Chemicals - Specialty
+EMR,122,Industrials,Industrial - Machinery
+ES,122,Utilities,Regulated Electric
+ETN,122,Industrials,Industrial - Machinery
+ETR,122,Utilities,Regulated Electric
+EXC,122,Utilities,Regulated Electric
+F,123,Consumer Cyclical,Auto - Manufacturers
+FDX,123,Industrials,Integrated Freight & Logistics
+FITB,123,Financial Services,Banks - Regional
+GD,123,Industrials,Aerospace & Defense
+GE,123,Industrials,Aerospace & Defense
+GIS,123,Consumer Defensive,Packaged Foods
+GL,123,Financial Services,Insurance - Life
+GLW,123,Technology,"Hardware, Equipment & Parts"
+GPC,123,Consumer Cyclical,Specialty Retail
+GWW,122,Industrials,Industrial - Distribution
+HAL,123,Energy,Oil & Gas Equipment & Services
+HAS,123,Consumer Cyclical,Leisure
+HD,123,Consumer Cyclical,Home Improvement
+HES,121,Energy,Oil & Gas Exploration & Production
+HIG,123,Financial Services,Insurance - Diversified
+HON,123,Industrials,Conglomerates
+HPQ,123,Technology,Computer Hardware
+HSY,122,Consumer Defensive,Food Confectioners
+HUM,122,Healthcare,Medical - Healthcare Plans
+IBM,123,Technology,Information Technology Services
+IFF,122,Basic Materials,Chemicals - Specialty
+INTC,123,Technology,Semiconductors
+IP,122,Consumer Cyclical,Packaging & Containers
+IPG,122,Communication Services,Advertising Agencies
+ITW,123,Industrials,Industrial - Machinery
+JNJ,123,Healthcare,Drug Manufacturers - General
+JPM,123,Financial Services,Banks - Diversified
+K,122,Consumer Defensive,Food Confectioners
+KEY,123,Financial Services,Banks - Regional
+KMB,122,Consumer Defensive,Household & Personal Products
+KO,123,Consumer Defensive,Beverages - Non-Alcoholic
+KR,119,Consumer Defensive,Grocery Stores
+L,122,Financial Services,Insurance - Property & Casualty
+LIN,122,Basic Materials,Chemicals - Specialty
+LLY,122,Healthcare,Drug Manufacturers - General
+LMT,123,Industrials,Aerospace & Defense
+LOW,123,Consumer Cyclical,Home Improvement
+LUV,123,Industrials,"Airlines, Airports & Air Services"
+MAS,122,Industrials,Construction
+MCD,122,Consumer Cyclical,Restaurants
+MDT,123,Healthcare,Medical - Devices
+MMC,123,Financial Services,Insurance - Brokers
+MMM,123,Industrials,Conglomerates
+MO,122,Consumer Defensive,Tobacco
+MRK,122,Healthcare,Drug Manufacturers - General
+MRO,119,Energy,Oil & Gas Exploration & Production
+MS,123,Financial Services,Financial - Capital Markets
+MSFT,122,Technology,Software - Infrastructure
+MU,123,Technology,Semiconductors
+NEE,123,Utilities,Regulated Electric
+NEM,123,Basic Materials,Gold
+NKE,123,Consumer Cyclical,Apparel - Footwear & Accessories
+NOC,123,Industrials,Aerospace & Defense
+NSC,123,Industrials,Railroads
+NTRS,122,Financial Services,Asset Management
+NUE,123,Basic Materials,Steel
+OMC,123,Communication Services,Advertising Agencies
+ORCL,123,Technology,Software - Infrastructure
+OXY,122,Energy,Oil & Gas Exploration & Production
+PCAR,123,Industrials,Agricultural - Machinery
+PEG,122,Utilities,Regulated Electric
+PEP,123,Consumer Defensive,Beverages - Non-Alcoholic
+PFE,122,Healthcare,Drug Manufacturers - General
+PG,123,Consumer Defensive,Household & Personal Products
+PH,122,Industrials,Industrial - Machinery
+PHM,123,Consumer Cyclical,Residential Construction
+PKI,120,Healthcare,Medical - Diagnostics & Research
+PNC,123,Financial Services,Banks - Regional
+PNW,122,Utilities,Regulated Electric
+PPG,122,Basic Materials,Chemicals - Specialty
+PPL,122,Utilities,Regulated Electric
+QCOM,122,Technology,Semiconductors
+ROK,122,Industrials,Industrial - Machinery
+RTX,123,Industrials,Aerospace & Defense
+SHW,123,Basic Materials,Chemicals - Specialty
+SLB,123,Energy,Oil & Gas Equipment & Services
+SNA,123,Industrials,Manufacturing - Tools & Accessories
+SO,122,Utilities,Regulated Electric
+STT,123,Financial Services,Asset Management
+SWK,122,Industrials,Manufacturing - Tools & Accessories
+SYY,123,Consumer Defensive,Food Distribution
+TAP,122,Consumer Defensive,Beverages - Alcoholic
+TGT,123,Consumer Defensive,Discount Stores
+TJX,123,Consumer Cyclical,Apparel - Retail
+TROW,122,Financial Services,Asset Management
+TXN,123,Technology,Semiconductors
+TXT,122,Industrials,Aerospace & Defense
+UNH,123,Healthcare,Medical - Healthcare Plans
+UNM,122,Financial Services,Insurance - Life
+UNP,123,Industrials,Railroads
+VZ,122,Communication Services,Telecommunications Services
+WBA,122,Healthcare,Medical - Pharmaceuticals
+WFC,123,Financial Services,Banks - Diversified
+WM,123,Industrials,Waste Management
+WMB,122,Energy,Oil & Gas Midstream
+WMT,123,Consumer Defensive,Discount Stores
+WY,122,Real Estate,REIT - Specialty
+XEL,122,Utilities,Regulated Electric
+XOM,122,Energy,Oil & Gas Integrated
