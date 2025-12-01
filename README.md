@@ -20,7 +20,7 @@ Python: 3.10+ · Frameworks: PyTorch, pandas, statsmodels
 ├─ figures/                 # Plots exported to paper \
 ├─ results/                 # Metrics, tables, predictions (small text files) \
 ├─ data/                    # (gitignored) raw/processed data, per-ticker CSVs \
-├─ models/                  # (gitignored) checkpoints (TFT/LSTM) \
+├─ scripts/                 # (gitignored) checkpoints (TFT/LSTM) \
 ├─ requirements.txt         # Python deps (or use environment.yml) \
 ├─ .gitignore               # Python/Jupyter/LaTeX/data artifacts \
 └─ README.md
