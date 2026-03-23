@@ -1,17 +1,42 @@
-Forecasting S&P 500 Quarterly Revenue with TFT
+🚀 Forecasting S&P 500 Quarterly Revenue with TFT
 
-Reproducible pipeline for next-quarter (h=1) firm-level revenue forecasting on a long-horizon S&P 500 panel (1995Q1–2025Q2). We compare Temporal Fusion Transformer (TFT) against LSTM and Box–Jenkins baselines (ARIMA/SARIMA) under strict chronological splits and leakage controls.
+Reproducible deep learning pipeline for firm-level quarterly revenue forecasting using the Temporal Fusion Transformer (TFT) on a long-horizon S&P 500 panel (1995Q1–2025Q2).
 
-Status: project stage.
+This project benchmarks TFT against LSTM and classical time series models (ARIMA/SARIMA) under strict chronological splits and leakage-free design.
 
-Python: 3.10+ · Frameworks: PyTorch, pandas, statsmodels
+🔥 Key Results
+-
+- Next-quarter (h=1) forecasting: ~9.3% MAPE on 155 S&P 500 firms.
+- Strict evaluation:Fully leakage-free pipeline;Chronological train/val/test splits.
+- Model comparison:TFT (panel model) vs LSTM vs ARIMA/SARIMA (per-ticker).
+- Interpretability:Feature importance via TFT variable selection & attention
+
+
+🧠 Methodology Overview
+-
+- Raw Financial Data 
+- Feature Engineering (lags, growth, fundamentals, calendar) 
+- TFT / LSTM / ARIMA Models
+- Multi-horizon Forecasting (h = 1, ..., H) 
+- Evaluation (MAPE, MAE, RMSE).
+
+📊 Dataset
+-
+- Universe: 155 continuously listed S&P 500 firms
+- Period: 1995Q1 – 2025Q2
+- Frequency: Quarterly
+- Target: Revenue (log-transformed during training)
+
+⚠️ Data is not included due to licensing.
+Please place your dataset under data/ following the expected structure.
 
 📌 Highlights
  -
-- Unified evaluation: chronological 70–15–15 (train/val/test) by ticker.
-- Feature taxonomy (TFT): static (e.g., sector), observed-past (lags), known-future (calendar, lag1 fundamentals).
-- Baselines: per-ticker ARIMA/SARIMA; per-ticker LSTM; panel TFT.
-- Reproducibility: deterministic seeds, frozen splits, saved configs.
+- Unified chronological split (70–15–15).
+- Leakage-safe feature engineering.
+- Panel modeling with TFT.
+- Per-ticker classical baselines.
+- Fully reproducible pipeline (fixed seeds, saved configs)
 
 📂 Repository Structure. \
  -
@@ -28,17 +53,15 @@ Python: 3.10+ · Frameworks: PyTorch, pandas, statsmodels
 🔧 Setup
  -
 Option A — venv (Windows/macOS/Linux)
+
 python -m venv .venv
+
 - Windows: .venv\Scripts\activate
 - macOS/Linux: source .venv/bin/activate
+  
 pip install --upgrade pip
-pip install -r requirements.txt
 
-🧮 Data
- -
-- Panel of 155 continuously listed S&P 500 firms (1995Q1–2025Q2).
-- Per-ticker engineered CSVs with quarter-end anchoring and leakage controls.
-- Note: Source financial data is not included in the repo. Place your files under data/ using the structure expected by scripts/prepare_data.py. Large raw data and model checkpoints are git-ignored.
+pip install -r requirements.txt
 
 ▶️ Quick Start
  -
@@ -105,8 +128,7 @@ python scripts/train_sarima.py --data_dir data/processed --out_dir results/sarim
 📜 License
 -
 - Code: MIT (recommended) — see LICENSE.
-- Text (paper/book fragments): CC BY-NC-SA 4.0 (optional, if included).
-- Data: Not distributed; ensure you comply with original data licenses.
+- Data: Not included (subject to original provider terms).
 
 📣 Citation
 -
@@ -121,6 +143,14 @@ If you use this repo, please cite:
 
 🙌 Acknowledgments
 -
-Lim et al., Temporal Fusion Transformers for Interpretable Multi-horizon Time Series Forecasting.
+- Lim et al., Temporal Fusion Transformers for Interpretable Multi-horizon Time Series Forecasting.
+- PyTorch
+- statsmodels
+- Open-source community
 
-statsmodels, PyTorch, and the open-source community.
+💡 About This Project
+-
+This repository is part of a Master’s thesis focused on:
+- Financial time-series forecasting
+- Deep learning (TFT)
+- Multimodal extensions (future work with NLP: FinBERT, Llama).
